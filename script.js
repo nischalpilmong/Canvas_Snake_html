@@ -24,6 +24,7 @@ $(document).ready(function(){
 		//Use a timer to call paint function
 		if(typeof game_loop != "undefined") clearInterval(game_loop);
 		game_loop = setInterval(paint, speed);
+		console.log('normal check');
 	}
 	
 	init();
